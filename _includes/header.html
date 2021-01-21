@@ -9,12 +9,12 @@
 
     <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
-        <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
+        <a href="{{ site.baseurl }}/" title="Home">
           <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">{{ site.description }}</p>
+        <p class="panel-cover__description">{{ site.description | markdownify }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -99,7 +99,7 @@
               <!-- Whatsapp -->
               <li class="navigation__item">
 		      <a href="https://wa.me/{{ site.author.mobile_number }}?text={{ site.author.whatsapp_text }}"
-                  title="Contact us on whatsapp" target="_blank">
+                  title="نوبت دهی" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                   <span class="label">Whatsapp</span>
                 </a>
