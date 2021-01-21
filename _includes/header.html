@@ -66,25 +66,14 @@
               <!-- Instagram -->
               <li class="navigation__item">
                 <a href="https://instagram.com/{{ site.author.instagram_username }}"
-                  title="{{ site.author.instagram_username }} on LinkedIn" target="_blank">
+                  title="{{ site.author.instagram_username }} on instagrm" target="_blank">
                   <i class="fab fa-instagram"></i>
                   <span class="label">instagram</span>
                 </a>
               </li>
               {% endif %}
 
-              {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}"
-                  title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.author.phone_number %}
+              {% if site.author.mobile_number %}
               <!-- Phone -->
               <li class="navigation__item">
 		      <a href="tel:+{{ site.author.phone_number }}"
@@ -116,13 +105,16 @@
               </li>
               {% endif %}
 
-              <!-- RSS -->
+              {% if site.author.linkedin_username %}
+              <!-- LinkedIn -->
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">
-                  <i class="fa fa-rss"></i>
-                  <span class="label">RSS</span>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}"
+                  title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="label">LinkedIn</span>
                 </a>
               </li>
+              {% endif %}
 
             </ul>
           </nav>

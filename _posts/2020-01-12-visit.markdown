@@ -28,8 +28,6 @@ tags: [مراجعه, تماس, آدرس]
 ### دانلود کارت ویزیت
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/{{ site.author.ecard }}" style="max-width: 80%; margin: 10px;" alt="Address QR_CODE">
+    <img src="{{ site.baseurl }}/{{ site.author.ecard }}" style="max-width: 80%; margin: 10px;" alt="Address QR_CODE" title="برای یافتن ما اسکن کنید.">
 </div>
-
-- می‌توانید با اسکن این `QR_CODE` آدرس را روی نقشه بیابید:
 
