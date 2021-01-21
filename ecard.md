@@ -15,19 +15,16 @@ tags: [مراجعه, تماس, آدرس]
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="{{ site.baseurl }}/images/eCard2.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="{{ site.baseurl }}/images/linkedin.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="{{ site.baseurl }}/images/instagram.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -76,6 +73,15 @@ tags: [مراجعه, تماس, آدرس]
 
 /* Position the "next button" to the right */
 .next {
+  color: #171717;
+  background-color: rgba(0,0,0,0.3);
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  color: #171717;
+  background-color: rgba(0,0,0,0.3);
   right: 0;
   border-radius: 3px 0 0 3px;
 }
