@@ -925,7 +925,7 @@ html {
 	max-height: 100%; }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Vazir", sans-serif;
 	font-size: 1em;
 	color: #666666; }
 
@@ -1004,7 +1004,7 @@ blockquote {
 	background: #f8f8f8;
 	border: 1px solid #eeeeee;
 	border-radius: 3px;
-	font-family: "Roboto Slab", serif;
+	font-family: "Vazir", sans-serif;
 	font-weight: lighter;
 	font-style: italic;
 	font-size: 1.3em;
@@ -1072,7 +1072,7 @@ pre {
 	color: #999999; }
 
 .intro {
-	font-family: "Roboto Slab", serif;
+	font-family: "Vazir", sans-serif;
 	font-size: 1.2em;
 	font-weight: lighter;
 	color: #999999; }
@@ -1120,7 +1120,7 @@ pre {
 	padding: 2em 0 0 0;
 	border-top: 2px solid #dddddd;
 	font-size: .7em;
-	color: #b3b3b3; }
+	color: #1d1d1d; }
 
 .footer__copyright {
 	display: block;
@@ -1205,7 +1205,7 @@ hr {
 	color: #FFF; }
 
 .panel-subtitle {
-	font-family: "Roboto Slab", serif;
+	font-family: "Vazir", sans-serif;
 	font-size: 1.2em;
 	font-weight: lighter;
 	letter-spacing: 3px;
@@ -1284,7 +1284,7 @@ hr {
 	color: #FFF;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 	.panel-inverted a {
-		color: #FFF; }
+		color: #e25440; }
 
 .cover-navigation {
 	margin-top: 10px; }
@@ -1425,7 +1425,7 @@ nav {
 	margin-left: 1em; }
 
 i {
-	font-family: 'entypo';
+	font-family: "Vazir", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 18px; }
@@ -1463,11 +1463,11 @@ i {
 	display: block;
 	margin: .7em 0 0 0;
 	font-size: .9em;
-	color: #c7c7c7; }
+	color: #1d1d1d; }
 
 .post-list__meta--date {
 	margin-right: .5em;
-	color: #c7c7c7; }
+	color: #1d1d1d; }
 
 .post-list__meta--tags {
 	margin-left: .5em; }
