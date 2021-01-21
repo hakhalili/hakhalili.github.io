@@ -1,0 +1,49 @@
+# Site settings
+title: دکتر حسینعلی خلیلی
+description: 'عضو هیئت علمی دانشگاه شیراز. متخصص جراحی مغز، اعصاب و ستون فقرات'
+url: 'http://khalili.info'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+  name: 'Hossein Ali Khalili'
+  email: khalili@yahoo.com
+  phone_number: 987132319783
+  mobile_number: 989175665839
+  whatsapp: true
+  whatsapp_text: "%D9%86%D8%A7%D9%85%20%D9%88%20%D9%86%D8%A7%D9%85%20%D8%AE%D8%A7%D9%86%D9%88%D8%A7%D8%AF%DA%AF%DB%8C%3A%0A%D8%AA%D9%88%D8%B6%DB%8C%D8%AD%20%D8%A8%DB%8C%D9%85%D8%A7%D8%B1%DB%8C%3A%0A%D8%B2%D9%85%D8%A7%D9%86%20%D9%86%D9%88%D8%A8%D8%AA%20%D9%85%D8%B7%D9%84%D9%88%D8%A8%3A"
+  instagram_username: dr.hosseinali_khalili 
+  twitter_username: 
+  facebook_username: 
+  ecard: 'images/eCard2.jpg' 
+  linkedin_username:  
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
