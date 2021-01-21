@@ -1,10 +1,12 @@
 ---
-title:  "برای دریافت لینک اسکن کنید"
+title:  ""
 permalink: /ecard/
 date:   2020-01-12 15:04:23
 categories: [visit]
 tags: [مراجعه, تماس, آدرس]
 ---
+
+### برای دریافت لینک اسکن کنید.
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
