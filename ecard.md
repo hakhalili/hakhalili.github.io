@@ -6,7 +6,7 @@ categories: [visit]
 tags: [مراجعه, تماس, آدرس]
 ---
 
-### برای دریافت لینک اسکن کنید.
+### اسکن کنید.
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -27,6 +27,11 @@ tags: [مراجعه, تماس, آدرس]
     <img src="{{ site.baseurl }}/images/instagram.jpg" style="width:100%">
   </div>
 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="{{ site.baseurl }}/images/english-ecard.jpg" style="width:100%">
+  </div>
+  
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -59,13 +64,13 @@ tags: [مراجعه, تماس, آدرس]
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 5px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
