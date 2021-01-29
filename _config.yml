@@ -10,6 +10,8 @@ baseurl: ''
 author:
   name: 'Hosseinali Khalili'
   email: drhosseinalikhalili@gmail.com
+  address: '[شیراز، روبروی بیمارستان شهید فقیهی، کوچه ۴۳، ساختمان پزشکان پگاه](geo:29.62608,52.52655?z=18)'
+  map: 'https://www.openstreetmap.org/?mlat=29.62609&mlon=52.52655#map=18/29.62609/52.52655'
   phone_number: 987132319783
   mobile_number: 989175665839
   whatsapp: true

@@ -18,7 +18,7 @@ tags: [مراجعه, تماس, آدرس]
 
 ###  آدرس
 
-- [شیراز، روبروی بیمارستان شهید فقیهی، کوچه ۴۳، ساختمان پزشکان پگاه](geo:29.62608,52.52655?z=18)
+- {{ site.author.address | markdownify }}
 
 <div style="text-align: center;">
 <!-- OSM Map -->
