@@ -1365,12 +1365,15 @@ hr {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	text-align: center; }
 
+.btn-mobile-guide {
+	display: none; }
+
 .btn-mobile-menu__icon,
 .btn-mobile-close__icon {
 	position: relative;
 	top: 3px;
 	font-size: 36px;
-	color: #FFF; }
+	color: #e25440; }
 
 nav {
 	display: inline-block;
@@ -1593,6 +1596,9 @@ input[type="tel"] {
 		margin-left: 0; } }
 @media all and (max-width: 960px) {
 	.btn-mobile-menu {
+		display: block; }
+
+	.btn-mobile-guide {
 		display: block; }
 
 	.panel-main {
